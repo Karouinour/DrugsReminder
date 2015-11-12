@@ -1,0 +1,233 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+<RelativeLayout 
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sim.drugsreminder.AddActivity" 
+    android:background="#CECECE">
+   
+    <RelativeLayout
+        android:background="#FFFFFF"
+        android:id="@+id/layoutName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/MedName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medicament Name" 
+            android:paddingBottom="10dp"
+            android:textColor="#FF4081" 
+   			android:textStyle="bold" />
+        <EditText
+	        android:id="@+id/Edit_MedName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="Please enter your drug name"
+	        android:inputType="text"
+	       android:layout_below="@+id/MedName"/>
+    </RelativeLayout>
+    
+    <RelativeLayout
+       android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:id="@+id/layoutDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_below="@id/layoutName">
+        <TextView
+            android:id="@+id/RemindDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reminder Dates"
+            android:textColor="#FF4081"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:id="@+id/LayoutSDate" 
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/RemindDate">
+        <TextView
+            android:id="@+id/StartDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Date" />
+        <EditText
+	        android:id="@+id/Edit_RemindSDate"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint=""
+	        android:inputType="datetime"/>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/LayoutEDate" 
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/LayoutSDate">
+        <TextView
+            android:id="@+id/EndDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End Date" />
+        <EditText
+	        android:id="@+id/Edit_RemindEDate"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint=""
+	        android:inputType="datetime"/>
+        </LinearLayout>
+        
+        
+    </RelativeLayout>
+    
+    <RelativeLayout
+       android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:id="@+id/layoutTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_below="@id/layoutDate">     
+        <TextView
+            android:id="@+id/RemindTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reminder Times"
+            android:textColor="#FF4081"
+		    android:textStyle="bold"/>
+        
+        <Button
+            android:layout_centerInParent="true"
+		    android:id="@+id/Button_AddAlarm"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Add Alarm"
+		    android:layout_below="@id/RemindTime"/>
+        </RelativeLayout>
+        
+        <RelativeLayout 
+        
+        android:background="#FFFFFF"
+        android:id="@+id/layout_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" 
+        android:layout_below="@id/layoutTime">
+        <!-- Liste des ala -->
+        <FrameLayout
+        android:id="@+id/list_alarm_add"
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        </RelativeLayout>
+        
+    
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:id="@+id/layoutDays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_alarm" >
+       <TextView
+            android:id="@+id/DayChoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Days Choice"
+            android:textColor="#FF4081"
+		    android:textStyle="bold"/>
+       <TextView
+            android:id="@+id/SpecificDay"
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Specific days of week"
+            android:clickable="true"
+            android:layout_below="@id/DayChoice"/>
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:id="@+id/layoutInstruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutDays" >
+        <TextView
+            android:id="@+id/Instruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Instruction"
+            android:textColor="#FF4081"
+            android:textStyle="bold"  />
+        <RadioGroup
+            android:id="@+id/RBInstruction" 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    android:layout_below="@id/Instruction">
+        	
+		    <RadioButton android:id="@+id/Before"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Before meals"
+		        android:checked="true"/>
+		    <RadioButton android:id="@+id/After"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="After meals"/>
+		</RadioGroup>
+            
+        </RelativeLayout>
+        
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:id="@+id/layoutType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutInstruction" >
+        <HorizontalScrollView 
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollType" 
+            android:fadingEdge="none">
+		    <LinearLayout 
+		        android:id="@+id/horiztonal_outer_layout" 
+		        android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal"
+                android:background="#ffffff" 
+                android:gravity="center_vertical" 
+                android:paddingTop="5dip" 
+                android:paddingBottom="5dip">
+		    </LinearLayout>
+		</HorizontalScrollView>
+    	<LinearLayout 
+    	    android:layout_width="match_parent" 
+    	    android:layout_height="wrap_content" 
+            android:orientation="horizontal" 
+            android:gravity="center_horizontal">
+		    <TextView 
+		        android:layout_width="match_parent" 
+		        android:layout_height="wrap_content"
+                android:layout_marginTop="50dip" 
+                android:id="@+id/horizontal_textview"
+                android:gravity="center" 
+                android:textStyle="bold" 
+                android:textSize="18sp"/>
+    	</LinearLayout>
+	</RelativeLayout>
+ 
+</RelativeLayout>
+</ScrollView>

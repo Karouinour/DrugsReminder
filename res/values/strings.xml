@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <string name="activity_title">Precaution</string>
+    <string name="app_name">Drugs Reminder</string>
+    <string name="add_user">Add new profil</string>
+    <string name="add_drugs">Add new drugs</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_sms">SMS</string>
+    <string name="action_notification">Notification</string>
+    <string name="action_about">About</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add">Add Drugs</string>
+    <string name="numero">Numero</string>
+    <string name="message">Message</string>
+    <string name="envoyer">Envoyer</string>
+    <string name="start_note">Start Notification</string>
+    <string name="cancel_note">Cancel Notification</string>
+    <string name="update_note">Update Notification</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_add_user">Add User</string>
+    <string name="title_activity_add_user2">Add User</string>
+    <string name="title_activity_listtype">ListtypeActivity</string>
+    <string name="title_activity_sms">SMSActivity</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="title_activity_notification2_">Notification2_Activity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="next">Next</string>
+    <string name="prev">Previous</string>
+    <string name="finish">Submit</string>
+    <string name="submit_confirm_message">Do you want to add this drug?</string>
+    <string name="submit_confirm_button">Add</string>
+    <string name="label_your_name">Name</string>
+    <string name="hint_your_name">firstname lastname</string>
+    <string name="label_your_phone">Phone Number</string>
+    <string name="hint_your_phone">00216 55 555 555</string>
+    <string name="label_your_email">Email</string>
+    <string name="hint_your_email">email@email.com</string>
+    <string name="hint_your_pet_name">pet name</string>
+    <string name="label_your_pet_name">Pet name</string>
+    <string name="label_your_drug_name">Drug name</string>
+    <string name="hint_your_drug_name">Please enter your drug name</string>
+
+    <!-- Drower -->
+    <string name="Home">Home</string>
+    <string name="Precaution">Precautions</string>
+    <string name="Users">Users</string>
+    <string name="Add_User">Add User</string>
+    <string name="Add_Drug">Add Drug</string>
+    <string name="Settings">Settings</string>
+    <string name="About">About</string>
+    <string name="Description">“Drugs Reminder” is a mobile application dedicated to smartphones users, the main feature of this one is to remind, you and your family members to take your medications on time and safely.
+With this application you will not forget to vaccinate your dog, to take your medications or your vitamins ever again.
+“Drugs Reminder” is an easy medical application to use.
+</string>
+
+    <!-- DrugWizardModel -->
+    <string name="Your_medicament_info">Your medicament info</string>
+    <string name="Medicament_type">Medicament type</string>
+    <string name="Vial">Vial</string>
+    <string name="Pomade">Pomade</string>
+    <string name="Syrup">Syrup</string>
+    <string name="Injection">Injection</string>
+    <string name="Pill">Pill</string>
+    <string name="Instruction">Instruction</string>
+    <string name="Before_meals">Before meals</string>
+    <string name="After_meals">After meals</string>
+    <string name="No_instructions">No instructions</string>
+    <string name="Instructiondrug">Instruction: </string>
+    <string name="Duration">Duration: </string>
+    <string name="Daysdrug">Days: </string>
+
+    <!-- User Wizard model -->
+    <string name="Sexe">Sexe</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="Your_info">Your info</string>
+    <string name="Other">Pet</string>
+    <string name="Pet_Choice">Pet Choice</string>
+    <string name="Dog">Dog</string>
+    <string name="Cat">Cat</string>
+    <string name="Bird">Bird</string>
+    <string name="Horse">Horse</string>
+    <string name="Rabbit">Rabbit</string>
+    <string name="Phone">Telephone: </string>
+    <string name="Email">Email: </string>
+    <string name="NotDefinedPhone">Not Defined</string>
+    <string name="NotDefinedEmail">Not Defined</string>
+    <string name="Your_pet_name">Your pet name</string>
+
+    <!-- popup util -->
+    <string name="Are_you_sure_to_delete_user">Are you sure to delete user ?</string>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+
+
+    <!-- Content Description -->
+
+
+    <!-- Nouvel parti nour -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="term_treatment">term treatment</string>
+    <string name="months">Months</string>
+    <string name="weeks">Weeks</string>
+    <string name="days">Days</string>
+    <string name="one_month">One month</string>
+    <string name="tow_months">Tow months</string>
+    <string name="three_months">Three months</string>
+    <string name="one_day">One day</string>
+    <string name="tow_days">Tow days</string>
+    <string name="three_days">Three days</string>
+    <string name="one_week">One week</string>
+    <string name="tow_week">Tow weeks</string>
+    <string name="three_week">Three weeks</string>
+    <string name="Time">Time</string>
+    <string name="Programme">Programme</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Drugs Reminder</string>
+    <string name="add_user">Aggiungi un nuovo profilo</string>
+    <string name="add_drugs">Aggiungi un nuovo farmaco</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_sms">SMS</string>
+    <string name="action_notification">Notification</string>
+    <string name="action_about">su</string>
+    <string name="action_settings">Opzioni</string>
+    <string name="title_activity_add">Ajouter medicament</string>
+    <string name="numero">Numero</string>
+    <string name="message">messaggio</string>
+    <string name="envoyer">inviare</string>
+    <string name="start_note">Inizia notifica</string>
+    <string name="cancel_note">Annulla notifica</string>
+    <string name="update_note">Change Notification</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_add_user">Ajouter utilisateur</string>
+    <string name="title_activity_add_user2">Ajouter utilisateur</string>
+    <string name="title_activity_listtype">ListtypeActivity</string>
+    <string name="title_activity_sms">SMSActivity</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="title_activity_notification2_">Notification2_Activity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    
+    <string name="next">Il Prossimo</string>
+    <string name="prev">precedente</string>
+    <string name="finish">Submit</string>
+
+    <string name="submit_confirm_message">Vuoi aggiungere questo farmaco?</string>
+    <string name="submit_confirm_button">Aggiungi su</string>
+
+    <string name="label_your_name">Nome</string>
+    <string name="hint_your_name">Nome Cognome</string>  
+    <string name="label_your_phone">Numero di telefono</string>
+    <string name="hint_your_phone">00216 55 555 555</string>
+    <string name="label_your_email">Email</string>
+    <string name="hint_your_email">email@email.com</string>
+    <string name="hint_your_pet_name">il nome del vostro animale domestico</string>
+    <string name="label_your_pet_name">il nome del vostro animale domestico</string>
+    
+    <string name="label_your_drug_name">Il farmaco</string>
+    <string name="hint_your_drug_name">S inserisci il tuo nome farmaco</string>
+    
+    <!-- Drower -->
+    <string name="Home">benvenuto</string>
+    <string name="Precaution">precauzioni</string>
+    <string name="Users">Utenti</string>
+    <string name="Add_User">Aggiungi utente</string>
+    <string name="Add_Drug">aggiungere farmaco</string>
+    <string name="Settings">Opzioni</string>
+    <string name="About">a proposito</string>
+     <string name="Description">"DrugsReminder" è un applicazione mobile dedicata per gli utenti di smartphone, la caratteristica principale di questo è per ricordare voi ei vostri familiari a prendere il farmaco in tempo e in modo sicuro.
+Con questa applicazione che non si dimentica di vaccinare il vostro cane, prendere mai più il farmaco o le vitamine.
+"DrugsReminder" è un facile da usare lapplicazione medica.</string>
+    <!-- DrugWizardModel -->
+    <string name="Your_medicament_info">fyi farmaco</string>
+    <string name="Medicament_type">tipo di farmaco </string>
+    <string name="Vial">Lampadina</string>
+    <string name="Pomade">pomata</string>
+    <string name="Syrup">sciroppo</string>
+    <string name="Injection">iniezione</string>
+    <string name="Pill">Compresse</string>
+    <string name="Instruction">Istruzione</string>
+    <string name="Before_meals">Prima dei pasti</string>
+    <string name="After_meals">Dopo i pasti</string>
+     <string name="Instructiondrug">Istruzione: </string>
+    <string name="Duration">Durata: </string>
+    <string name="Daysdrug">Giorni: </string>
+    
+        <string name="Sexe">sesso</string>
+    <string name="Male">maschio</string>
+    <string name="Female">femminile</string>
+    <string name="Your_info">informazioni</string>
+    <string name="Other">animale </string>
+    <string name="Pet_Choice">Scegliere il vostro animale domestico</string>
+    <string name="Dog">cane</string>
+    <string name="Cat">gatto</string>
+    <string name="Bird">uccello</string>
+    <string name="Horse">cavallo</string>
+    <string name="Rabbit">coniglio</string>
+    <string name="Phone">Telefono: </string>
+    <string name="Email">Email: </string>
+    <string name="NotDefinedPhone">non definito</string>
+    <string name="NotDefinedEmail">non definito</string>
+    
+    <string name="Your_pet_name">il nome del vostro animale domestico</string>
+    
+      <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Find People</item>
+        <item >Photos</item>
+        <item >Communities</item>
+        <item >Pages</item>
+        <item >What\'s Hot</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    
+
+</resources>

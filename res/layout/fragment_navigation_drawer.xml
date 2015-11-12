@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/card"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" 
+        android:background="#ccc">
+
+        <Spinner
+            android:id="@+id/spinnerAccount"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/imgSearch" />
+
+       
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listviewMenu"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/card"
+        android:layout_gravity="start"
+        android:background="#ccc"
+        android:choiceMode="singleChoice"
+        android:listSelector="@drawable/list_selector" />
+
+</RelativeLayout>
